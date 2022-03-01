@@ -9,14 +9,14 @@
   {# {% include "footer.njk" %} #}
   {# {% include "js.njk" %} #}
 
-  <video playsinline autoplay muted loop poster="/v/loop.jpg" id="bgvid">
+  <video class="object-cover w-screen h-screen fixed inset-0" playsinline autoplay muted loop poster="/v/loop.jpg" id="bgvid">
     <source src="/v/loop.webm" type="video/webm">
     <source src="/v/loop.mp4" type="video/mp4">
   </video>
 
-  <div class="absolute inset-0 flex items-center justify-center flex-col">
-    <h1 class="text-[56px] font-bold">JC Rodinados</h1>
-    <p class="text-[33px]">Santiago, Chile</p>
+  <div class="absolute inset-0 flex items-center justify-center flex-col text-center">
+    <h1 class="text-[40px] md:text-[56px] font-bold">JC Rodinados</h1>
+    <p class="text-[26px] md:text-[33px]">Santiago, Chile</p>
   </div>
 </body>
 </html>
